@@ -1,12 +1,32 @@
-CREATE DATABASE Day1DB;
+-- Idempotent Day 1 setup
+IF DB_ID('Day1DB') IS NULL
+BEGIN
+    CREATE DATABASE Day1DB;
+END
+GO
 
-use Day1DB;
+USE Day1DB;
+GO
 
---CREATE TABLE Students ( Id INT PRIMARY KEY IDENTITY, Name NVARCHAR(100), Age INT )
+IF OBJECT_ID('dbo.Students', 'U') IS NULL
+BEGIN
+    CREATE TABLE dbo.Students (
+        Id INT IDENTITY(1,1) PRIMARY KEY,
+        Name NVARCHAR(100) NOT NULL,
+        Age INT NULL,
+        Marks INT NULL
+    );
+END
+GO
 
-INSERT INTO Students (Name, Age) VALUES ('Alice', 22), ('Bob', 25);
+-- Seed data (checks to avoid duplicates)
+IF NOT EXISTS (SELECT 1 FROM dbo.Students WHERE Name = 'Alice')
+    INSERT INTO dbo.Students (Name, Age) VALUES ('Alice', 22);
 
-SELECT * FROM Students;
+IF NOT EXISTS (SELECT 1 FROM dbo.Students WHERE Name = 'Bob')
+    INSERT INTO dbo.Students (Name, Age) VALUES ('Bob', 25);
 
- ALTER TABLE Students ADD Marks INT; 
- INSERT INTO Students (Name, Age, Marks) VALUES ('John', 24, 88);
+IF NOT EXISTS (SELECT 1 FROM dbo.Students WHERE Name = 'John')
+    INSERT INTO dbo.Students (Name, Age, Marks) VALUES ('John', 24, 88);
+
+SELECT * FROM dbo.Students;

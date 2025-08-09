@@ -4,6 +4,7 @@ import { Welcome } from "./welcome/welcome";
 import { Home } from "./home/home";
 
 @Component({
+  standalone: true,
   selector: 'app-root',
   imports: [RouterOutlet, Welcome],
   templateUrl: './app.html',

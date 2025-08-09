@@ -3,6 +3,7 @@ import { Home} from './home/home'
 import { About } from './about/about';
 
 export const routes: Routes = [
-    {path: '', Home},
-    {path: 'about', About}
+  { path: '', component: Home },
+  { path: 'about', component: About },
+  { path: '**', redirectTo: '' }
 ];
