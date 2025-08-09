@@ -10,7 +10,7 @@ namespace DSAPlayground.Problems
     {
         public static int MaxElemant(int[] arr)
         {
-            if (arr is null || arr.Length == 0) throw new Exception("Empty array");
+            if (arr is null || arr.Length == 0) throw new ArgumentException("Empty array");
             int max = arr[0];
             foreach(int num in arr)
             {
