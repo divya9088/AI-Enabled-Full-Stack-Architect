@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\divya\\OneDrive\\Desktop\\AI-Enabled-Full-Stack-Architect\\DSA\\DSAPlayground\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C1858DD-2946-8131-5DFF-D201411FE99C}|DSAPlayground.csproj|c:\\users\\divya\\onedrive\\desktop\\ai-enabled-full-stack-architect\\dsa\\dsaplayground\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1858DD-2946-8131-5DFF-D201411FE99C}|DSAPlayground.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C1858DD-2946-8131-5DFF-D201411FE99C}|DSAPlayground.csproj|c:\\users\\divya\\onedrive\\desktop\\ai-enabled-full-stack-architect\\dsa\\dsaplayground\\problems\\find maximum element in array.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1858DD-2946-8131-5DFF-D201411FE99C}|DSAPlayground.csproj|solutionrelative:problems\\find maximum element in array.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{670FFB52-E510-4792-9439-142E51CCE8E1}|..\\DSAPlayground.Tests\\DSAPlayground.Tests.csproj|c:\\users\\divya\\onedrive\\desktop\\ai-enabled-full-stack-architect\\dsa\\dsaplayground.tests\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\divya\\OneDrive\\Desktop\\AI-Enabled-Full-Stack-Architect\\DSA\\DSAPlayground\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\divya\\OneDrive\\Desktop\\AI-Enabled-Full-Stack-Architect\\DSA\\DSAPlayground\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T10:02:53.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Find maximum element in array.cs",
+              "DocumentMoniker": "C:\\Users\\divya\\OneDrive\\Desktop\\AI-Enabled-Full-Stack-Architect\\DSA\\DSAPlayground\\Problems\\Find maximum element in array.cs",
+              "RelativeDocumentMoniker": "Problems\\Find maximum element in array.cs",
+              "ToolTip": "C:\\Users\\divya\\OneDrive\\Desktop\\AI-Enabled-Full-Stack-Architect\\DSA\\DSAPlayground\\Problems\\Find maximum element in array.cs",
+              "RelativeToolTip": "Problems\\Find maximum element in array.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T10:04:15.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\divya\\OneDrive\\Desktop\\AI-Enabled-Full-Stack-Architect\\DSA\\DSAPlayground.Tests\\Program.cs",
+              "RelativeDocumentMoniker": "..\\DSAPlayground.Tests\\Program.cs",
+              "ToolTip": "C:\\Users\\divya\\OneDrive\\Desktop\\AI-Enabled-Full-Stack-Architect\\DSA\\DSAPlayground.Tests\\Program.cs",
+              "RelativeToolTip": "..\\DSAPlayground.Tests\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T10:02:47.616Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

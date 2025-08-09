@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DSA/.vs/DSA/CopilotIndices/17.14.995.13737
+/DSA/.vs/DSA/DesignTimeBuild
+/DSA/.vs/DSA/FileContentIndex
+/DSA/.vs
+/MyApi/.vs/MyApi
+/MyApi/bin/Debug/net9.0
+/MyApi/obj/Debug/net9.0
+/MyApi/obj
